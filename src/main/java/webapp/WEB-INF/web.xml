@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<web-app
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	version="3.1">
+
+	<display-name>GenexusWebApp</display-name>
+
+	<listener>
+		<listener-class>com.genexus.webpanels.ServletEventListener</listener-class>
+	</listener>
+	<listener>
+		<listener-class>com.genexus.webpanels.SessionEventListener</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>GXResourceProvider</servlet-name>
+		<servlet-class>com.genexus.webpanels.GXResourceProvider</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GXObjectUploadServices</servlet-name>
+		<servlet-class>com.genexus.webpanels.GXObjectUploadServices</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>GXValidService</servlet-name>
+		<servlet-class>com.genexus.webpanels.GXValidService</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>com.devopsaazure.rwdmasterpage</servlet-name>
+		<servlet-class>com.devopsaazure.rwdmasterpage</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>com.devopsaazure.rwdrecentlinks</servlet-name>
+		<servlet-class>com.devopsaazure.rwdrecentlinks</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>com.devopsaazure.consumeservicio</servlet-name>
+		<servlet-class>com.devopsaazure.consumeservicio</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>com.devopsaazure.inicio</servlet-name>
+		<servlet-class>com.devopsaazure.inicio</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>com.devopsaazure.pais</servlet-name>
+		<servlet-class>com.devopsaazure.pais</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>GXResourceProvider</servlet-name>
+		<url-pattern>/servlet/com.genexus.webpanels.GXResourceProvider</url-pattern>
+		<url-pattern>/com.genexus.webpanels.GXResourceProvider</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GXObjectUploadServices</servlet-name>
+		<url-pattern>/gxobject</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>GXValidService</servlet-name>
+		<url-pattern>/gx_valid_service</url-pattern>
+	</servlet-mapping>
+
+	<servlet-mapping>
+		<servlet-name>com.devopsaazure.rwdmasterpage</servlet-name>
+		<url-pattern>/servlet/com.devopsaazure.rwdmasterpage</url-pattern>
+		<url-pattern>/com.devopsaazure.rwdmasterpage</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>com.devopsaazure.rwdrecentlinks</servlet-name>
+		<url-pattern>/servlet/com.devopsaazure.rwdrecentlinks</url-pattern>
+		<url-pattern>/com.devopsaazure.rwdrecentlinks</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>com.devopsaazure.consumeservicio</servlet-name>
+		<url-pattern>/servlet/com.devopsaazure.consumeservicio</url-pattern>
+		<url-pattern>/com.devopsaazure.consumeservicio</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>com.devopsaazure.inicio</servlet-name>
+		<url-pattern>/servlet/com.devopsaazure.inicio</url-pattern>
+		<url-pattern>/com.devopsaazure.inicio</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>com.devopsaazure.pais</servlet-name>
+		<url-pattern>/servlet/com.devopsaazure.pais</url-pattern>
+		<url-pattern>/com.devopsaazure.pais</url-pattern>
+	</servlet-mapping>
+
+	<context-param>
+		<param-name>gxcfg</param-name>
+		<param-value>com.devopsaazure.GXcfg</param-value>
+	</context-param>
+	<filter>
+		<filter-name>ExpiresFilter</filter-name>
+		<filter-class>com.genexus.filters.ExpiresFilter</filter-class>
+		<init-param>
+			<param-name>ExpiresByType image</param-name>
+			<param-value>access plus 36 hours</param-value>
+		</init-param>
+		<init-param>
+			<param-name>ExpiresByType text/css</param-name>
+			<param-value>access plus 36 hours</param-value>
+		</init-param>
+		<init-param>
+			<param-name>ExpiresByType application/javascript</param-name>
+			<param-value>access plus 36 hours</param-value>
+		</init-param>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>ExpiresFilter</filter-name>
+		<url-pattern>/*</url-pattern>
+		<dispatcher>REQUEST</dispatcher>
+	</filter-mapping>
+
+
+</web-app> 
