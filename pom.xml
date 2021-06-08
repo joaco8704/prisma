@@ -11,6 +11,11 @@
 
 
 	<dependencies>
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.1.0</version>
+		</dependency>
 		<!-- bcprov-jdk15on-1.64.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
