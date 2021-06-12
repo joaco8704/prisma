@@ -343,6 +343,9 @@
 								<directory>${pom.basedir}/src/main/java/webapp</directory>
 						    </resource>
 						</webResources>
+						<packagingExcludes>
+							WEB-INF/**/*.java						
+						</packagingExcludes>
 					</configuration>
 				</plugin>
 			</plugins>
