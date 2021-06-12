@@ -22,6 +22,7 @@
 			<artifactId>bcprov-jdk15on-1.64</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/bcprov-jdk15on-1.64.jar</systemPath>
+			<version>1.64</version>
 		</dependency>
 		<!-- commons-codec-1.9.jar -->
 		<dependency>
@@ -29,6 +30,7 @@
 			<artifactId>commons-codec-1.9</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/commons-codec-1.9.jar</systemPath>
+			<version>1.9</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
 		<dependency>
@@ -42,6 +44,7 @@
 			<artifactId>commons-fileupload-1.3.3</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/commons-fileupload-1.3.3.jar</systemPath>
+			<version>1.3.3</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
 		<dependency>
@@ -67,6 +70,7 @@
 			<artifactId>encoder-1.2.2</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/encoder-1.2.2.jar</systemPath>
+			<version>1.2.2</version>
 		</dependency>
 		<!-- encoder-jsp-1.2.2.jar -->
 		<dependency>
@@ -74,6 +78,7 @@
 			<artifactId>encoder-jsp-1.2.2</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/encoder-jsp-1.2.2.jar</systemPath>
+			<version>1.2.2</version>
 		</dependency>
 		<!-- GeneXus.jar -->
 		<dependency>
@@ -81,6 +86,7 @@
 			<artifactId>GeneXus</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/GeneXus.jar</systemPath>
+			<version>1.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.google.guava/guava -->
 		<dependency>
@@ -94,6 +100,7 @@
 			<artifactId>gxclassR</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/gxclassR.jar</systemPath>
+			<version>1.0</version>
 		</dependency>
 		<!-- gxcommon.jar -->
 		<dependency>
@@ -101,6 +108,7 @@
 			<artifactId>gxcommon</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/gxcommon.jar</systemPath>
+			<version>1.0</version>
 		</dependency>
 		<!-- gxcryptocommon.jar -->
 		<dependency>
@@ -108,6 +116,7 @@
 			<artifactId>gxcryptocommon</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/gxcryptocommon.jar</systemPath>
+			<version>1.0</version>
 		</dependency>
 		<!-- gxmaps.jar -->
 		<dependency>
@@ -115,6 +124,25 @@
 			<artifactId>gxmaps</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/gxmaps.jar</systemPath>
+			<version>1.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish.hk2/hk2-api -->
+		<dependency>
+			<groupId>org.glassfish.hk2</groupId>
+			<artifactId>hk2-api</artifactId>
+			<version>2.4.0-b34</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish.hk2/hk2-locator -->
+		<dependency>
+			<groupId>org.glassfish.hk2</groupId>
+			<artifactId>hk2-locator</artifactId>
+			<version>2.4.0-b34</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish.hk2/hk2-utils -->
+		<dependency>
+			<groupId>org.glassfish.hk2</groupId>
+			<artifactId>hk2-utils</artifactId>
+			<version>2.4.0-b34</version>
 		</dependency>
 		<!-- jackson-annotations-2.11.0.jar -->
 		<dependency>
@@ -122,6 +150,7 @@
 			<artifactId>jackson-annotations-2.11.0</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/jackson-annotations-2.11.0.jar</systemPath>
+			<version>2.11.0</version>
 		</dependency>
 		<!-- jackson-core-2.11.0.jar -->
 		<dependency>
@@ -129,6 +158,7 @@
 			<artifactId>jackson-core-2.11.0</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/jackson-core-2.11.0.jar</systemPath>
+			<version>2.11.0</version>
 		</dependency>
 		<!-- jackson-databind-2.11.0.jar -->
 		<dependency>
@@ -136,6 +166,7 @@
 			<artifactId>jackson-databind-2.11.0</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/jackson-databind-2.11.0.jar</systemPath>
+			<version>2.11.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.annotation/javax.annotation-api -->
 		<dependency>
@@ -143,12 +174,19 @@
 			<artifactId>javax.annotation-api</artifactId>
 			<version>1.3.2</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish.hk2.external/javax.inject -->
+		<dependency>
+			<groupId>org.glassfish.hk2.external</groupId>
+			<artifactId>javax.inject</artifactId>
+			<version>2.4.0-b34</version>
+		</dependency>
 		<!-- javax.jms-3.1.2.2.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>javax.jms-3.1.2.2</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/javax.jms-3.1.2.2.jar</systemPath>
+			<version>3.1.2.2</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.glassfish.main.javaee-api/javax.jws -->
 		<dependency>
@@ -162,6 +200,12 @@
 			<artifactId>javax.mail-api</artifactId>
 			<version>1.6.2</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.ws.rs/javax.ws.rs-api -->
+		<dependency>
+			<groupId>javax.ws.rs</groupId>
+			<artifactId>javax.ws.rs-api</artifactId>
+			<version>2.0.1</version>
+		</dependency>
 		<!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
 		<dependency>
 			<groupId>javax.xml.bind</groupId>
@@ -174,12 +218,31 @@
 			<artifactId>jaxws-api</artifactId>
 			<version>2.2.1</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.ext/jersey-entity-filtering -->
+		<dependency>
+			<groupId>org.glassfish.jersey.ext</groupId>
+			<artifactId>jersey-entity-filtering</artifactId>
+			<version>2.22.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.bundles.repackaged/jersey-guava -->
+		<dependency>
+			<groupId>org.glassfish.jersey.bundles.repackaged</groupId>
+			<artifactId>jersey-guava</artifactId>
+			<version>2.22.2</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.glassfish.jersey.media/jersey-media-json-jackson -->
+		<dependency>
+			<groupId>org.glassfish.jersey.media</groupId>
+			<artifactId>jersey-media-json-jackson</artifactId>
+			<version>2.22.2</version>
+		</dependency>
 		<!-- joda-time-2.10.4.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
 			<artifactId>joda-time-2.10.4</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/joda-time-2.10.4.jar</systemPath>
+			<version>2.10.4</version>
 		</dependency>
 		<!-- json-20180813.jar -->
 		<dependency>
@@ -187,6 +250,7 @@
 			<artifactId>json-20180813</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/json-20180813.jar</systemPath>
+			<version>1.0</version>
 		</dependency>
 		<!-- log4j-api-2.13.3.jar -->
 		<dependency>
@@ -194,6 +258,7 @@
 			<artifactId>log4j-api-2.13.3</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/log4j-api-2.13.3.jar</systemPath>
+			<version>2.13.3</version>
 		</dependency>
 		<!-- log4j-core-2.13.3.jar -->
 		<dependency>
@@ -201,6 +266,7 @@
 			<artifactId>log4j-core-2.13.3</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/log4j-core-2.13.3.jar</systemPath>
+			<version>2.13.3</version>
 		</dependency>
 		<!-- mysql-connector-java-5.1.49.jar -->
 		<dependency>
@@ -208,6 +274,13 @@
 			<artifactId>mysql-connector-java-5.1.49</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/mysql-connector-java-5.1.49.jar</systemPath>
+			<version>5.1.49</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/javax.validation/validation-api -->
+		<dependency>
+			<groupId>javax.validation</groupId>
+			<artifactId>validation-api</artifactId>
+			<version>1.1.0.Final</version>
 		</dependency>
 		<!-- xercesImpl-2.12.0.jar -->
 		<dependency>
@@ -215,6 +288,7 @@
 			<artifactId>xercesImpl-2.12.0</artifactId>
 			<scope>system</scope>
 			<systemPath>${basedir}/lib/xercesImpl-2.12.0.jar</systemPath>
+			<version>2.12.0</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/xml-apis/xml-apis -->
 		<dependency>
@@ -240,6 +314,9 @@
 				<plugin>
 					<artifactId>maven-compiler-plugin</artifactId>
 					<version>3.7.0</version>
+					<configuration>
+						<release>11</release>
+				     	</configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-surefire-plugin</artifactId>
