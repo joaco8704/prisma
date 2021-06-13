@@ -26,5 +26,5 @@ jobs:
     - name: Save public folder
       uses: actions/upload-artifact@v2
       with:
-        name: DeploymentUnit1
-        path: target/DeploymentUnit1.war
+        name: DeploymentUnit1-1.0-SNAPSHOT
+        path: target/DeploymentUnit1-1.0-SNAPSHOT.war
