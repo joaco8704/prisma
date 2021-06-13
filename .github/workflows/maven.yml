@@ -27,7 +27,7 @@ jobs:
       uses: actions/upload-artifact@v2
       with:
         name: DeployAKS-1.0-SNAPSHOT
-        path: target/DeployAKS-1.0-SNAPSHOT.war
+        path: target/DeploymentUnit1.war
 
   sonar:
     name: Build
