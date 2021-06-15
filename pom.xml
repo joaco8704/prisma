@@ -28,6 +28,13 @@
 			<systemPath>${pom.basedir}/lib/bcprov-jdk15on-1.64.jar</systemPath>
 			<version>1.64</version>
 		</dependency>
+		<dependency>
+			<groupId>genexus</groupId>
+			<artifactId>GeneXus</artifactId>
+			<scope>system</scope>
+			<systemPath>${pom.basedir}/lib/GeneXus.jar</systemPath>
+			<version>1.0</version>
+		</dependency>
 		<!-- commons-codec-1.9.jar -->
 		<dependency>
 			<groupId>genexus</groupId>
